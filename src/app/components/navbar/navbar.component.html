@@ -1,8 +1,28 @@
 <mat-toolbar color="primary">
-    <button mat-button routerLink="/">Home</button>
-    <button mat-button routerLink="/about">About</button>
-    <button mat-button routerLink="/services">Services</button>
-    <span class="spacer"></span> <!-- Cet espace pousse les éléments suivants à droite -->
-    <button mat-button>Login</button>
-  </mat-toolbar>
+  <button mat-button routerLink="/" class="nav-btn">
+    <mat-icon>home</mat-icon> Home
+  </button>
+  <button mat-button routerLink="/about" class="nav-btn">
+    <mat-icon>info</mat-icon> About
+  </button>
+  <button mat-button routerLink="/projects" class="nav-btn">
+    <mat-icon>work</mat-icon> Projects
+  </button>
+  <button mat-button routerLink="/skills" class="nav-btn">
+    <mat-icon>school</mat-icon> Skills
+  </button>
+  <button mat-button routerLink="/contact" class="nav-btn">
+    <mat-icon>contact_mail</mat-icon> Contact
+  </button>
+  <button mat-button routerLink="/testimonials" class="nav-btn">
+    <mat-icon>star</mat-icon> Testimonials
+  </button>
   
+  <span class="spacer"></span>
+
+  
+  <!-- Profil à droite -->
+  <button mat-button class="profile-btn">
+    <mat-icon>person</mat-icon> Profile
+  </button>
+</mat-toolbar>
