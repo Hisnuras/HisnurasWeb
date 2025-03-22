@@ -1,0 +1,13 @@
+::ng-deep .mat-toolbar {
+    display: flex;
+    justify-content: space-between; /* Pour espacer les éléments */
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  mat-toolbar {
+    background-color: #1976d2; /* Couleur personnalisée */
+  }
+  
